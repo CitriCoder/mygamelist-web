@@ -1,0 +1,125 @@
+/* Cuadro del Login|Register */
+@media (min-width: 576px) {
+
+    body .logmarg {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .hide input {
+        display: none !important;
+    }
+    .hide button {
+        display: none;
+    }
+}
+
+
+/* Margen de los titulos (cat significa "Categorias") */
+.cat {
+    margin-left: 5%;
+    padding-top: 15px;
+}
+
+.carousel-inner {
+    width: 62.5% !important;
+}
+
+/* Fondo de la pagina */
+body {
+	/*background-color:gainsboro;*/
+    background-color: #00303b;
+    color: #00303b;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+
+/* Carousel con multiples imagenes */
+.slick-prev:before, .slick-next:before {
+    color: #00303b;
+    }
+
+.txtmod {
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #000;
+    padding-left: 5px;
+}
+
+.txtmod:hover {
+    color: #ff7777;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.lnkcuenta {
+    color: #ff7777;
+}
+
+.lnkcuenta:hover {
+    color: #ff6666;
+    text-decoration: underline !important;
+    text-decoration-color: #ff6666 !important;
+}
+
+.btn-outline-secdan {
+    border: 1px solid #00303b79;
+    color: #00303b;
+}
+
+.btn-outline-secdan:hover {
+    color: #fff;
+    background-color: #00303b;
+}
+
+.btn-secdan {
+    border: 1px solid #00303b79;
+    color: #fff;
+    background-color: #00303b;
+}
+.btn-secdan:hover {
+    color: #fff;
+    background-color: #00151a;
+}
+
+.btn-pinky {
+    border: 1px solid #ff666679;
+    color: #fff;
+    background-color: #ff6666;
+}
+.btn-pinky:hover {
+    color: #fff;
+    background-color: #ff4d4d;
+}
+
+
+.btn-outline-secdan:active, .btn-outline-secdan:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 4px 1px #00303b;
+    border: #00303b;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 4px 1px #00303b;
+    border: #00303b;
+}
+
+textarea {
+    resize: none;
+ }
